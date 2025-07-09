@@ -17,11 +17,12 @@ Naive Bayes is a family of simple "probabilistic classifiers" based on applying 
 ## 📁 Project Structure
 
 ```
-Naive_Bayes_from_scratch-main/
-├── naive_bayes.py        # Core implementation of Naive Bayes
-├── test.ipynb            # Jupyter notebook for testing and demo
-├── data/                 # Sample datasets (optional)
-└── README.md             # This file
+Naive_Bayes_from_scratch/
+├── data/
+│   └── breast-cancer.csv          
+├── notebooks/
+│   └── Naive_Bayes_from_scratch.ipynb
+└── README.md
 ```
 
 ---
@@ -34,14 +35,10 @@ git clone https://github.com/yourusername/Naive_Bayes_from_scratch.git
 cd Naive_Bayes_from_scratch
 ```
 
-2. **Install dependencies**
-```bash
-pip install numpy pandas
-```
 
-3. **Run the notebook**
+2. **Run the notebook**
 ```bash
-jupyter notebook test.ipynb
+jupyter notebook Naive_Bayes_from_scratch.ipynb
 ```
 
 The notebook includes examples of training the Naive Bayes classifier, visualizing results, and evaluating performance.
@@ -65,12 +62,7 @@ The notebook includes examples of training the Naive Bayes classifier, visualizi
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
 
 ## ✨ Author
 
-Created with 💡 by [Your Name](https://github.com/yourusername)
+Created by FW
